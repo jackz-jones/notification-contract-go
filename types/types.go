@@ -13,7 +13,7 @@ type EnterpriseInfo struct {
 }
 
 // MessageType 消息类型
-type MessageType int
+type MessageType uint
 
 const (
 	MessageType_Enterprise_Create MessageType = 0 + iota // 企业注册
